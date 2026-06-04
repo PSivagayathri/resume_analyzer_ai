@@ -1,0 +1,11 @@
+streamlit
+requests
+python-dotenv
+PyMuPDF==1.22.5
+
+# Fix numpy version to avoid binary incompatibility
+numpy==1.24.3
+
+# Stable spaCy release for Python 3.10
+spacy==3.6.1
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
