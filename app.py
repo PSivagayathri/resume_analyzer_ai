@@ -210,6 +210,10 @@ load_dotenv()
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "Resume Parser API Running"}
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
