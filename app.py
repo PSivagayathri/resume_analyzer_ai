@@ -216,7 +216,7 @@ def home():
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://resume-analyzer-frontend-y3mw.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
